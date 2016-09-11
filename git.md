@@ -176,6 +176,8 @@ nothing to commit (working directory clean)
 
 
 
+1. windows下，glone出的代码，换行符改变，导致shell脚本报错，需要git配置设置换行符
+
 
 
 ### 参考资料
