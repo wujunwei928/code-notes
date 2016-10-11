@@ -58,17 +58,17 @@ nothing to commit (working directory clean)
 
 
 1. 创建和合并分支
-    * 查看分支：git branch
+    * 列出所有分支：git branch
 
-    * 创建分支：git branch <name>
+    * 创建分支：git branch branch_name
 
-    * 切换分支：git checkout <name>
+    * 切换分支：git checkout branch_name
 
-    * 创建+切换分支：git checkout -b <name>
+    * 创建+切换分支：git checkout -b branch_name
 
-    * 合并某分支到当前分支：git merge <name>
+    * 合并某分支到当前分支：git merge branch_name
 
-    * 删除分支：git branch -d <name>
+    * 删除分支：git branch -d branch_name
 
 
 1. 解决冲突
