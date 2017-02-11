@@ -1,6 +1,6 @@
 ```bash
-    $ git config --global user.name "Your Name"
-    $ git config --global user.email "email@example.com"
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
 ```
 
 1. 初始化一个Git仓库，使用git init命令。
