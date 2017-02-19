@@ -1,5 +1,4 @@
 
 # Redis
 redis-server
-redis-cli
-
+redis-cliredis-benchmark
