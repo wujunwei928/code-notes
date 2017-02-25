@@ -34,10 +34,10 @@
 
 
 7. 显示nginx版本信息
-
+   /usr/local/nginx/sbin/nginx -v
 
 8. 显示编译阶段的参数
-
+   /usr/local/nginx/sbin/nginx -V
 
 9. 快速的停止服务
 
