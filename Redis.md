@@ -45,7 +45,8 @@ incrby key_name
 incrbyfloat key_name
 ```
 
-## 6: 脚本
+## 6: Lua脚本
+redis.call()
 
 
 ## 7: 持久化
