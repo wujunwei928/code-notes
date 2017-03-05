@@ -15,3 +15,11 @@ Mini版下载地址：https://conda.io/miniconda.html
 如果只需要某些包，或者需要节省带宽或存储空间，可以使用Mini版（仅包含conda和 Python）。
 
 # Anaconda 的包管理工具 conda
+## 设置 Anaconda 镜像地址
+将Anaconda的镜像地址设置为国内的清华大学地址, 提高包下载速度。
+```bash
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+```
+
+运行 *conda install numpy* 测试一下吧。
