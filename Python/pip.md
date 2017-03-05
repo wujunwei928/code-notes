@@ -12,9 +12,15 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 # 注意，simple 不能少, 是 https 而不是 http
 ```
 2. 设为默认
-修改 ~/.pip/pip.conf (没有就创建一个)， 修改 index-url至tuna，例如
+修改 ~/.pip/pip.conf (没有就创建一个)
+如果镜像地址是https的, 例如: 修改index-url至清华大学镜像
 ```bash
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
+如果你想添加的pypi镜像地址不是https的, 需要多添加一行 trusted-host
+```bash
+[global]
+trusted-host=pypi.douban.com        #防止安装的时候报域名不是https的错误
+index-url = http://pypi.douban.com/simple
+```
