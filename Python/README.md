@@ -1,22 +1,22 @@
 
 # 教程
-Python 3 Module of the Week: https://pymotw.com/3/
-Python 2 Module of the Week: https://pymotw.com/2/
-Ansible 中文权威指南：http://www.ansible.com.cn/
-Scrapy 0.24中文文档：http://scrapy-chs.readthedocs.io/zh_CN/0.24/
-Tornado 中文文档： http://demo.pythoner.com/itt2zh/
-requests库学习文档: http://cn.python-requests.org/zh_CN/latest/index.html
+Python 3 Module of the Week: https://pymotw.com/3/  
+Python 2 Module of the Week: https://pymotw.com/2/  
+Ansible 中文权威指南：http://www.ansible.com.cn/  
+Scrapy 0.24中文文档：http://scrapy-chs.readthedocs.io/zh_CN/0.24/  
+Tornado 中文文档： http://demo.pythoner.com/itt2zh/  
+requests库学习文档: http://cn.python-requests.org/zh_CN/latest/index.html  
 
 # 大牛博客
-董伟明 - <python web开发实战>作者: http://www.dongwm.com/blog/archives/
+董伟明 - <python web开发实战>作者: http://www.dongwm.com/blog/archives/  
 
 
 # 相关文章
-pexpect模块使用说明: http://www.jianshu.com/p/cfd163200d12
-supervisor 初体验: http://www.jianshu.com/p/9abffc905645
-python多版本管理工具pyenv:  https://github.com/yyuu/pyenv/
-安装pyenv依赖项: https://github.com/yyuu/pyenv/wiki/Common-build-problems
-linux下Python多版本管理(pyenv): http://my.oschina.net/lionets/blog/267469
+pexpect模块使用说明: http://www.jianshu.com/p/cfd163200d12  
+supervisor 初体验: http://www.jianshu.com/p/9abffc905645  
+python多版本管理工具pyenv:  https://github.com/yyuu/pyenv/  
+安装pyenv依赖项: https://github.com/yyuu/pyenv/wiki/Common-build-problems  
+linux下Python多版本管理(pyenv): http://my.oschina.net/lionets/blog/267469  
 
 
 安装用户自定义python的最简便方法, 使用使用一站安装包Anaconda: 
@@ -30,5 +30,9 @@ Anaconda官网:  https://www.continuum.io/downloads
 
 
 # Jupyter
-jupyter支持的编程语言kennel列表: https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages
-jupyter同时支持python2 和 python3: https://ipython.readthedocs.io/en/latest/install/kernel_install.html
+jupyter支持的编程语言kennel列表: https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages  
+jupyter同时支持python2 和 python3: https://ipython.readthedocs.io/en/latest/install/kernel_install.html  
+
+# mycli
+
+# percol
