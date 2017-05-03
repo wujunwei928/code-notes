@@ -231,6 +231,17 @@ upstream    git@github.com:weui/weui.git (push)
 由于项目已经配置了上游项目的地址，所以如果 fork 的项目再次更新，重复步骤 2、3、4即可。
 
 
+**29. git下怎么查看某个历史版本的更新详情?**
+```bash
+# 日志显示每次提交的更新详情
+git log --stat -p
+
+# 显示某个版本号的更新详情
+git show 版本号
+
+# 使用图形界面工具
+
+```
 
 ### 参考资料
 [廖雪峰的官方网站 - git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)

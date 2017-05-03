@@ -38,7 +38,7 @@ setw -g mode-keys vi
 bind '"' split-window -c '#{pane_current_path}'
 bind '%' split-window -h -c '#{pane_current_path}'
 
-# 使用vi鍵盤選擇pane
+# 使用vim相同的按键选择pane
 bind-key h select-pane -L
 bind-key j select-pane -D
 bind-key k select-pane -U
