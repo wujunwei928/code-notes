@@ -29,6 +29,18 @@ docker run -it --rm ubuntu:14.04 bash
 # 列出镜像
 docker images
 
+# 删除镜像
+docker rmi
+
+# 列出容器
+docker ps
+docker ps -a
+
+# 删除容器
+docker rm
+
+# 从新启动容器
+docker start -ai 容器ID（一般前3个字母以上即可）
 
 
 
