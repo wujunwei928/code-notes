@@ -2,6 +2,7 @@
 # 资料
 官网： https://www.docker.com/  
 Docker镜像： https://hub.docker.com/explore/  
+Docker — 从入门到实践: https://github.com/yeasy/docker_practice
 
 # 安装
 ## Ubuntu
@@ -25,9 +26,11 @@ docker pull ubuntu:14.04
 
 # 运行镜像
 docker run -it --rm ubuntu:14.04 bash
+docker run -it ubuntu:16.04 /bin/bash
 
 # 列出镜像
 docker images
+docker images -a
 
 # 删除镜像
 docker rmi
@@ -35,6 +38,7 @@ docker rmi
 # 列出容器
 docker ps
 docker ps -a
+docker ps -a -q
 
 # 删除容器
 docker rm
