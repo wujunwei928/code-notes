@@ -81,12 +81,12 @@ RUN echo 'Hi, I am docker container' \
 VOLUME ["/mnt/nginx/media"]
 
 # 复制本地文件到镜像中, 会对压缩文件进行自解压
-ADD all_data.tar.gz /root/add_test/
+ADD webapp.tar.gz /root/add_test/
 
 # 复制本地文件到镜像中, 只复制, 不会去做文件提取和解压
 # ADD和COPY时, 源路径必须是相对路径, 目标路径必须是绝对路径
 # ADD和COPY时, 如果目标路径不存在, docker会自动帮我们创建
-COPY all_data.tar.gz /root/copy_test/
+COPY webapp.tar.gz /root/copy_test/
 
 # ONBUILD命令为镜像添加触发器, 当一个镜像作为其他镜像的基础镜像时, 该镜像的触发器会被执行
 ONBUILD add . /var/www/html/
