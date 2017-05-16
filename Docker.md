@@ -23,7 +23,7 @@ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58
 ```
 
 # 使用镜像加速器
-因为国内访问Docker Hub下载镜像速度慢，国内很多云计算公司提供了Docker Hub官方镜像的加速器，大大提高国内下载镜像的速度
+因为国内访问Docker Hub下载镜像速度慢，国内很多云计算公司提供了Docker Hub官方镜像的加速器，大大提高国内下载镜像的速度  
 DaoCloud： https://www.daocloud.io/mirror#accelerator-doc  
 阿里云：    https://cr.console.aliyun.com/#/accelerator  
 灵雀云：    http://docs.alauda.cn/feature/accelerator.html  
@@ -56,7 +56,8 @@ docker rm
 # 从新启动容器
 docker start -ai 容器ID（一般前3个字母以上即可）
 
-
+# 进入容器
+docker exec -it 容器ID bash
 
 ```
 
