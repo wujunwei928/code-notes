@@ -10,3 +10,6 @@ windows下php扩展下载地址:  http://windows.php.net/downloads/pecl/releases
 php最佳实践: http://phpbestpractices.justjavac.com/
 
 php the right way: http://laravel-china.github.io/php-the-right-way/
+
+## php社区
+1. https://laravel-china.org/
