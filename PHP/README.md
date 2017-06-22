@@ -11,5 +11,7 @@ php最佳实践: http://phpbestpractices.justjavac.com/
 
 php the right way: http://laravel-china.github.io/php-the-right-way/
 
+awesome-php: https://github.com/ziadoz/awesome-php
+
 ## php社区
 1. https://laravel-china.org/
