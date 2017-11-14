@@ -35,4 +35,9 @@ ffmpeg替换视频中的音频方法
 ffmpeg -i test.mp4 -vcodec copy -an 视频流.avi
 步骤二：ffmpeg替换音频命令（就是把音频视频合并起来）
 ffmpeg -i 视频流.avi -i 音频流.mp3 -vcodec mpeg4 -acodec copy 合并.mp4
+
+添加水印
+ffmpeg -i test.mp4 -i logo.png -filter_complex overlay test1.mp4
+在视频的右下角添加gif图片
+ffmpeg -y -i test2.mp4 -ignore_loop 0 -i test.gif  -filter_complex overlay=0:H-h test_out2.mp4
 ```
