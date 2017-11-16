@@ -4,6 +4,8 @@ linux二进制下载： https://www.johnvansickle.com/ffmpeg/
 
 [FFmpeg 基本用法](http://blog.csdn.net/doublefi123/article/details/24325159)
 
+何俊林的公众号 DriodDeveloper : ffmpeg 相关知识讲的非常棒
+
 ```bash
 截取视频缩略图
 ffmpeg -i 1.mp4 -r 3 -ss 00:00:26 -t 00:00:07 %03d.png
