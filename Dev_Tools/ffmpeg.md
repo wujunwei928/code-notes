@@ -6,6 +6,25 @@ linux二进制下载： https://www.johnvansickle.com/ffmpeg/
 
 何俊林的公众号 DriodDeveloper : ffmpeg 相关知识讲的非常棒
 
+[使用 FFmpeg 处理高质量 GIF 图片](http://www.techug.com/post/high-quality-gif-with-ffmpeg.html)
+ffmpeg默认生成的gif图像比较挫， 这篇文章介绍了怎么用来生成高质量的gif
+```bash
+#!/bin/sh
+
+start_time=$3
+duration=$4
+
+palette="/tmp/palette.png"
+
+filters="fps=15,scale=640:-1:flags=lanczos"
+
+ffmpeg -v warning -ss $start_time -t $duration -i $1 -vf "$filters,palettegen" -y $palette
+ffmpeg -v warning -ss $start_time -t $duration -i $1 -i $palette -lavfi "$filters [x]; [x][1:v] paletteuse" -y $2
+```
+创建一个用来生成gif的脚本 create_gif.sh
+运行 ./create_git.sh t_1.mp4 a_3.gif 25 10
+
+
 ```bash
 截取视频缩略图
 ffmpeg -i 1.mp4 -r 3 -ss 00:00:26 -t 00:00:07 %03d.png
