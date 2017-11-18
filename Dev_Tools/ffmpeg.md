@@ -1,5 +1,7 @@
 官方网站： http://ffmpeg.org/
 
+ffmpeg, ffplay, ffprobe
+
 linux二进制下载： https://www.johnvansickle.com/ffmpeg/
 
 [FFmpeg 基本用法](http://blog.csdn.net/doublefi123/article/details/24325159)
