@@ -1,5 +1,9 @@
 官方网站： http://ffmpeg.org/
 
+官方文档: https://ffmpeg.org/documentation.html
+Command Line Tools Documentation  
+Components Documentation  
+
 ffmpeg, ffplay, ffprobe
 
 linux二进制下载： https://www.johnvansickle.com/ffmpeg/
@@ -10,6 +14,12 @@ linux二进制下载： https://www.johnvansickle.com/ffmpeg/
 
 [使用 FFmpeg 处理高质量 GIF 图片](http://www.techug.com/post/high-quality-gif-with-ffmpeg.html)
 ffmpeg默认生成的gif图像比较挫， 这篇文章介绍了怎么用来生成高质量的gif
+
+[ffmpeg 调整音视频播放速度](http://blog.csdn.net/matrix_laboratory/article/details/53158307)
+
+[ffmpeg filter学习-编写自己的filter](http://www.cnblogs.com/ranson7zop/p/7728639.html)
+
+
 ```bash
 #!/bin/sh
 
