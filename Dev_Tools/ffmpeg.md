@@ -63,4 +63,16 @@ ffmpeg -i 视频流.avi -i 音频流.mp3 -vcodec mpeg4 -acodec copy 合并.mp4
 ffmpeg -i test.mp4 -i logo.png -filter_complex overlay test1.mp4
 在视频的右下角添加gif图片
 ffmpeg -y -i test2.mp4 -ignore_loop 0 -i test.gif  -filter_complex overlay=0:H-h test_out2.mp4
+
+setopts将时间缩短为原来的0.5, -r 码率设置为原来的0.5, 播放速度会是原来的二倍
+ffmpeg -i 1.mp4 -r 12 -filter:v "setpts=0.5*PTS" 2.mp4
+
+-s 设置分辨率
+ffmpeg -i 1.mp4 -s 600x338 2.mp4
+
+视频裁剪,  默认是从坐标(0,0)裁剪, 视频左上角为坐标原点
+1: 从坐标(0,0)裁剪, 输出宽度=输入宽度, 输出高度=输入高度*0.8
+ffmpeg -i 2.mp4 -filter:v "crop=out_w=in_w:out_h=0.8*in_h" 2.mp4
+1: 从坐标(0,0.2*in_h)裁剪, 输出宽度=输入宽度, 输出高度=输入高度*0.8
+fffmpeg -i 2.mp4 -ss 50 -t 10 -filter:v "crop=in_w:0.8*in_h:0:0.2*in_h" 3_caijian.mp4
 ```
