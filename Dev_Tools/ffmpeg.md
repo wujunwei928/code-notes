@@ -19,6 +19,10 @@ ffmpeg默认生成的gif图像比较挫， 这篇文章介绍了怎么用来生�
 
 [ffmpeg filter学习-编写自己的filter](http://www.cnblogs.com/ranson7zop/p/7728639.html)
 
+[使用ffmpeg为视频添加字幕](http://blog.csdn.net/u013699869/article/details/48162417)
+
+[ffmpeg提升音频/视频音量命令](https://www.5yun.org/9377.html)
+
 
 ```bash
 #!/bin/sh
