@@ -10,6 +10,8 @@ linux二进制下载： https://www.johnvansickle.com/ffmpeg/
 
 [FFmpeg 基本用法](http://blog.csdn.net/doublefi123/article/details/24325159)
 
+[雷霄骅的专栏](http://blog.csdn.net/leixiaohua1020)
+
 何俊林的公众号 DriodDeveloper : ffmpeg 相关知识讲的非常棒
 
 [使用 FFmpeg 处理高质量 GIF 图片](http://www.techug.com/post/high-quality-gif-with-ffmpeg.html)
